@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contactos{
+width: 300px;
+flex-direction: column;
+}
+
+.caja{
+    height:6rem;
+    display: flex;
+    border: 1px solid #BEC1BB;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.avatar-propio{
+    border-radius: 50%;
+    width: 3em;
+    padding: 1.5em;
+}
+
+.icons{
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: left;
+    color: #BEC1BB;
+    padding-right: 1em;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 4em;
+    padding: 1.5em;
+}
+.nuevo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8em;
+    border: 1px solid #BEC1BB;
+
+}
+
+.button{
+    width: 12em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: white ;
+    padding: 1em;
+    background-color: #A491D2;
+    border-color: white;
+}
+
+
+
+.texto{
+    width: 12em;
+}
+
+.nombre{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.estado{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    justify-content: left;
+}
+
+.prevista{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    justify-content: left;
+}
+
+
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    background-color:#E8EBE4 ;
+    align-items: center;
+    justify-content: center;
+    width: 80em;
+}
+
+
+.img{
+    height: 15em;
+    padding: 1em;
+}
+
+.comienza{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size:45px;
+}
+
+.instrucciones{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    width: 30em;
+}
